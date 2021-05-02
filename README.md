@@ -5,7 +5,7 @@ Employee Database with SQL
 
 
 ## Project Purpose
-The Human Resources (HR) department at Pewlett Hackard is preparing for the retirement of a large portion of their workforce. They would like to know how many employees and in which departments these employees approaching retirement.
+The Human Resources (HR) department at Pewlett Hackard is preparing for the retirement of a large segment of their workforce. They would like to know how many current employees and their associated departments are approaching retirement to assess the impacts and opportunities for the company to leverage the existing skills and develop new talent.
 
 The objective of this project was to determine the number of retirement-eligible employees based on their birth dates, job titles, employment dates, and number of retiring employees that are qualified to participate in a new mentorship program that Pewlett Packard is establishing to train employees getting ready for retirement. The new mentoring program will help to retain experienced and successful employees that want to step back into a part-time role instead of retiring completely. Their new role in the company would be as mentor for newly hired employees. 
 
@@ -16,7 +16,7 @@ There were two deliverables for this analysis project:
     2. To identify employees who are eligible to participate in a mentorship program
 
 ## Project Scope
-This analysis evaluated large datasets from various CSV files containing information about departments, department managers, employees, employees associated to different departments, employee titles, and salaries. The Entity Relationship Diagrams(ERD)mwas initially created to map out the primary and foreing keys and assign data types.
+This analysis evaluated large datasets from various CSV files containing information about departments, department managers, employees, employees associated to different departments, employee titles, and salaries. The Entity Relationship Diagrams(ERD)was initially created to map out the primary and foreing keys and assign data types.
 
 The analysis involved creating database tables and queries to retrieve various information from the imported CSV files about:
     create six tables, one for each CSV file. During the creation, we'll even map out the primary and foreign keys and assign data types.
