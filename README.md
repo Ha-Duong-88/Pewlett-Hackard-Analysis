@@ -66,11 +66,15 @@ There were four new tables created as part of this analysis.
 
 # Summary
 
-TO-DO:
+## TO-DO:
 ADD this tomorrow
 ## How many employees retiring and their titles
 ## How many employees eligible for Mentorship Program
 
+
 Generate 2 additional tables or queries that may provide more insights tomorrow
+    # % retiring employees (retiring/total)
+    # count/% of senior titles
+    # % of the retiring titles are eligible for mentorship program
 
        
