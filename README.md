@@ -5,7 +5,7 @@ Employee Database with SQL
 
 
 ## Project Purpose
-The objective of this project was to determine the number of retirement-eligible employees based on their birth dates, job titles, employment dates. and number of retiring employees that are eligible to participate in a mentorship program to train employees getting ready for retirement. The new mentoring program will help to retain experienced and successful employees that want to step back into a part-time role instead of retiring completely. Their new role in the company would be as a mentor to newly hired employees.
+The objective of this project was to determine the number of retirement-eligible employees based on their birth dates, job titles, employment dates. and number of retiring employees that are eligible to participate in a mentorship program to train employees getting ready for retirement. The new mentoring program will help to retain experienced and successful employees that want to step back into a part-time role instead of retiring completely. Their new role in the company would be as mentor for newly hired employees.
 
 ## Project Deliverables
 There were two deliverables for this analysis project:
