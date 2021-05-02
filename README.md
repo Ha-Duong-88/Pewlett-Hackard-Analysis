@@ -28,16 +28,16 @@ The analysis involved creating additional new database tables and constructing q
     * Birth dates 
     * From and to dates for employee titles
 
-To refine the query, multiple tables were also joined on the primary keys and on their columns. The data from the different joined tables was then filtered by different conditions, and the table was also grouped and sorted by criteria. This entailed the following:
+To refine the query, multiple tables were also joined. The data from the different joined tables was then filtered, grouped and sorted. This entailed the following high level steps performed:
 
      * Filtering the number of employees by their most recent job title who are nearing retirement to determine which departments are impacted
-     * Using the DISTINCT ON statement to retrieve the first occurence of employee number for each set of rows to remove duplicate data and nulls
+     * Retrieving the unique employee numbers 
      * Counting the number of titles filled by employees who are retiring
      * Sorting the data so that it's organized and readable
-     * Filtering the data from the employee birth date columns to extract employees who were born between 1952 and 1955 to determine retirement                    eligibility.
-     * Filtering the data all current employee to get all the employees whose birth dates are between January 1, 1965 and December 31, 1965 to                    determine eligibility for the Mentorship Program.
+     * Filtering the data to extract employees who were born between 1952 and 1955 to determine retirement eligibility
+     * Filtering the data all current employee to retrieve those born between January 1, 1965 and December 31, 1965 to determine eligibility for the Mentorship          Program.
      
-The query results were saved to several new tables created from the SELECT statements on specific columns of the existing tables and joined with the employees, department employees, department manager and titles tables. The new tables were exported and saved as CSV files.
+The query results were saved to several new tables created and were exported and saved as CSV files.
 
 PostgreSQL and pgAdmin's query editor were used to write SQL statements and execute the code to generate the schema and queries to perform the analysis for this project. The SQL files were also captured in Visual Studio Code editor and saved as .sql files as a backup to PostgreSQL database for recoverability purposes.
 
