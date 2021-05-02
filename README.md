@@ -37,7 +37,7 @@ To refine the query, multiple tables were also joined on the primary keys and on
      
 The query results were saved to several new tables created from the SELECT statements on specific columns of the existing tables and joined with the employees, department employees, department manager and titles tables. The new tables were exported and saved as CSV files.
 
-PostgreSQL and pgAdmin's query editor were used to write SQL statements and execute the code to generate the schema and queries to perform the analysis for this project. In addition, the SQL files were also created in Visual Studio Code editor and saved as .sql files.
+PostgreSQL and pgAdmin's query editor were used to write SQL statements and execute the code to generate the schema and queries to perform the analysis for this project. The SQL files were also captured in Visual Studio Code editor and saved as .sql files as a backup to PostgreSQL database for recoverability purposes.
 
 # Results
 There were four new tables created as part of this analysis.
