@@ -14,7 +14,7 @@ There were two deliverables for this analysis project:
     2. To identify employees who are eligible to participate in a mentorship program
 
 ## Project Scope
-This analysis evaluated data from various CSV files containing information about departments, department managers, employees, employees associated to different departments, employee titles, and salaries. An Entity Relationship Diagram (ERD) was initially created to create the conceptual, logical and physical database schema. The analysis involved creating database tables and queries to retrieve various information from the imported CSV files about:
+This analysis evaluated large datasets from various CSV files containing information about departments, department managers, employees, employees associated to different departments, employee titles, and salaries. An Entity Relationship Diagram (ERD) was initially created to create the conceptual, logical and physical database schema. The analysis involved creating database tables and queries to retrieve various information from the imported CSV files about:
     
     * The number of employees by their most recent job titles who are approaching retirement
     * The number of titles filled by employees who are retiring
@@ -40,9 +40,13 @@ PostgreSQL and pgAdmin were used to write SQL statements and functions to create
 ## Results
 There were four new tables created as part of this analysis.
     1. Retirement Titles - This table identied all employees who were born between 1952 and 1955 and eligible for retirement
-    2. Unique Titles - This table showed the most recent title for employees qualified for retirement
-    3. Retiring Titles - This table showed the titles for the employees of retirement age
-    4. Mentorship Eligibillity - This table showed the number of employees eligible for the Mentorship Program
+
+
+![image](https://user-images.githubusercontent.com/80140082/116802294-8bc32280-aac6-11eb-82b5-952f3a1b9ead.png)
+
+    3. Unique Titles - This table showed the most recent title for employees qualified for retirement
+    4. Retiring Titles - This table showed the titles for the employees of retirement age
+    5. Mentorship Eligibillity - This table showed the number of employees eligible for the Mentorship Program
 
 
        
