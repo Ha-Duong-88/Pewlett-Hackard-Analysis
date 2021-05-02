@@ -67,21 +67,19 @@ There were four new tables created as part of this analysis. The tables below di
 
 # Summary
 
-1) There are currently 300,024 employees at Pewlett Hackard.
+1) There are currently 300,024 employees at Pewlett Hackard. There are 90,398 employees with unique titles that were born between 1952-01-01 and 1955-12-31 that are eligible for retirement packages. This amounts to 30% of total current employees population that are nearing retirement. 
 
-2) There are 90,398 employees with unique titles that were born between 1952-01-01 and 1955-12-31 that are eligible for retirement packages. This amounts to 30% of total current employees population that are nearing retirement. 
-
-3) Based on the Retiring Titles table, Senior Engineers titles account for 33% and Senior Staff titles account for 31% of the retirement-eligible employee population. Combined these titles represent 64% of the total 90,398 retirement-qualified employees. This could present a significant risk to the company to have a large number of attrition for these two titles. The recommendation is to create a pipeline for these titles in the Mentorship Program to future-proof the company against loss of this knowledge base and skillsets.
+2) Based on the Retiring Titles table, Senior Engineers titles account for 33% and Senior Staff titles account for 31% of the retirement-eligible employee population. Combined these titles represent 64% of the total 90,398 retirement-qualified employees. This could present a significant risk to the company to have a large number of attrition for these two titles. The recommendation is to create a pipeline for these titles in the Mentorship Program to future-proof the company against loss of this knowledge base and skillsets.
 
 ![image](https://user-images.githubusercontent.com/80140082/116820738-61578080-ab2b-11eb-94d5-84f59f40a358.png)
 
 
-4) Based on the Unique Titles table, the departments with the highest number of employees eligible for retirement are Development, Production, and Sales. Priority should also be given these departments during recruitment and in the Mentorship Program.
+3) Based on the Unique Titles table, the departments with the highest number of employees eligible for retirement are Development, Production, and Sales. Priority should also be given these departments during recruitment and in the Mentorship Program.
 
 ![image](https://user-images.githubusercontent.com/80140082/116822172-273dad00-ab32-11eb-9105-64d135e4f6eb.png)
 
 
-5) Based on the mentorship-eligibility analysis, there are 280 (1%) retiring Senior Engineers and 275 (1%) retiring Senior Staff eligible for the Mentorship Program. This further increases the risk of attrition for these key roles/itles. In addition to retaining these critical skills and developing them in the new employees as part of the Mentorship Program, Pewlett Hackard should create a hiring pipeline for these high priority roles as the retirement-mentorship-eligible employees will eventually retire.
+4) Based on the mentorship-eligibility analysis, there are 280 (1%) retiring Senior Engineers and 275 (1%) retiring Senior Staff eligible for the Mentorship Program. This further increases the risk of attrition for these key roles/itles. In addition to retaining these critical skills and developing them in the new employees as part of the Mentorship Program, Pewlett Hackard should create a hiring pipeline for these high priority roles as the retirement-mentorship-eligible employees will eventually retire.
 
 
 
