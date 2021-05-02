@@ -74,7 +74,9 @@ There were four new tables created as part of this analysis. The tables below di
 
 2) There are 90,398 employees with unique titles that were born between 1952-01-01 and 1955-12-31 that are eligible for retirement packages. This amounts to 30% of total current employees that are nearing retirement. 
 
-![image](https://user-images.githubusercontent.com/80140082/116819168-a4adf100-ab23-11eb-9c9d-699d830a18c2.png)
+3) Senior Engineers titls account for 33% and Senior Staff titles account for 31% of the retirement-eligible employee population. Combined these titles represent 64% of the total 90,398 retirement-qualified employees. This could present a significant risk to the company. The recommendation is to create a pipeline for these titles in the Mentorship Program to future-proof the company against loss of this knowledge base.
+
+![image](https://user-images.githubusercontent.com/80140082/116819204-e474d880-ab23-11eb-86ab-7cbb55c04382.png)
 
 3) 
 
