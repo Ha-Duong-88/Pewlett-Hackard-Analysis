@@ -25,11 +25,11 @@ This analysis evaluated data from various CSV files containing information about
     * Birth dates 
     * From and to dates for employee titles
 
-To refine the query, muultiple tables were joined using inner and left joins on the primary keys and on various columns in order to retrieve the information needed.  The query output was then stored in new tables from which further queries were performed.  
+To refine the query, muultiple tables were joined using inner and left joins on the primary keys and on various columns in order to retrieve the information needed. The query output was then stored in new tables created from which further queries were performed.  
 
-The data from the various joined tables  and was furtther filtered by different conditions, such as:
+The data from the various joined tables was further filtered by different conditions, such as:
         * Filtering the data from the employee birth date columns to extract employees who were born between 1952 and 1955
-        * Filtering he number of employees by their most recent job title who are nearing retirement
+        * Filtering the number of employees by their most recent job title who are nearing retirement
         * Using the DISTINCT ON statement to retrieve the first occurence of employee number for each set of rows
         * The number of titles filled by employees who are retiring
      
