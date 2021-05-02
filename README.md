@@ -58,7 +58,7 @@ There were four new tables created as part of this analysis.
 
 ![image](https://user-images.githubusercontent.com/80140082/116802328-cdec6400-aac6-11eb-875d-3df3f3fa67b0.png)
 
-    7. Mentorship Eligibillity - This table showed the number of employees eligible for the Mentorship Program
+    7. Mentorship Eligibility - This table showed the number of employees eligible for the Mentorship Program
 
 
 ![image](https://user-images.githubusercontent.com/80140082/116802356-f4aa9a80-aac6-11eb-8fca-87cc158fc727.png)
