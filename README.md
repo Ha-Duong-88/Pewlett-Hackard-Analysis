@@ -37,7 +37,7 @@ The query results were outputed to several new tables created from the select st
 
 PostgreSQL and pgAdmin were used to write SQL statements and functions to create the schema and generate the queries to perform the analysis. In addition, the SQL files were also created in Visual Studio Code editor and saved as .sql files.
 
-## Results
+# Results
 There were four new tables created as part of this analysis.
 
 
@@ -64,5 +64,12 @@ There were four new tables created as part of this analysis.
 ![image](https://user-images.githubusercontent.com/80140082/116802356-f4aa9a80-aac6-11eb-8fca-87cc158fc727.png)
 
 
+# Summary
+
+ADD this tomorrow
+## How many employees retiring and their titles
+## How many employees eligible for Mentorship Program
+
+Generate 2 additional tables or queries that may provide more insights tomorrow
 
        
