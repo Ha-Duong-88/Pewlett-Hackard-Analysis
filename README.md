@@ -5,7 +5,9 @@ Employee Database with SQL
 
 
 ## Project Purpose
-The objective of this project was to determine the number of retirement-eligible employees based on their birth dates, job titles, employment dates. and number of retiring employees that are eligible to participate in a mentorship program to train employees getting ready for retirement. The new mentoring program will help to retain experienced and successful employees that want to step back into a part-time role instead of retiring completely. Their new role in the company would be as mentor for newly hired employees.
+The Human Resources (HR) department at Pewlett Hackard is preparing for the retirement of a large portion of their workforce. They would like to know how many employees and in which departments these employees approaching retirement.
+
+The objective of this project was to determine the number of retirement-eligible employees based on their birth dates, job titles, employment dates, and number of retiring employees that are qualified to participate in a new mentorship program that Pewlett Packard is establishing to train employees getting ready for retirement. The new mentoring program will help to retain experienced and successful employees that want to step back into a part-time role instead of retiring completely. Their new role in the company would be as mentor for newly hired employees. 
 
 ## Project Deliverables
 There were two deliverables for this analysis project:
@@ -14,7 +16,11 @@ There were two deliverables for this analysis project:
     2. To identify employees who are eligible to participate in a mentorship program
 
 ## Project Scope
-This analysis evaluated large datasets from various CSV files containing information about departments, department managers, employees, employees associated to different departments, employee titles, and salaries. An Entity Relationship Diagram (ERD) was initially created to create the conceptual, logical and physical database schema. The analysis involved creating database tables and queries to retrieve various information from the imported CSV files about:
+This analysis evaluated large datasets from various CSV files containing information about departments, department managers, employees, employees associated to different departments, employee titles, and salaries. The Entity Relationship Diagrams(ERD)mwas initially created to map out the primary and foreing keys and assign data types.
+
+The analysis involved creating database tables and queries to retrieve various information from the imported CSV files about:
+    create six tables, one for each CSV file. During the creation, we'll even map out the primary and foreign keys and assign data types.
+    
     
     * The number of employees by their most recent job titles who are approaching retirement
     * The number of titles filled by employees who are retiring
@@ -35,7 +41,7 @@ The data from the various joined tables was further filtered by different condit
      
 The query results were outputed to several new tables created from the select statements on specific columns of the existing tables and joins with the employees, department employees, department manager and titles tables. The new tables were exported and saved as CSV files in PostgreSQL database.
 
-PostgreSQL and pgAdmin were used to write SQL statements and functions to create the schema and generate the queries to perform the analysis. In addition, the SQL files were also created in Visual Studio Code editor and saved as .sql files.
+PostgreSQL and pgAdmin's query editor were used to write SQL statements and execute the code to generate the schema and queries to perform the analysis for this project. In addition, the SQL files were also created in Visual Studio Code editor and saved as .sql files.
 
 # Results
 There were four new tables created as part of this analysis.
