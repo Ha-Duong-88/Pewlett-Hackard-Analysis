@@ -8,6 +8,7 @@ Employee Database with SQL
 The Human Resources (HR) department at Pewlett Hackard is preparing for the retirement of a large segment of their workforce. They would like to know how many current employees and their associated departments are approaching retirement to assess the impacts and opportunities for the company to leverage the existing skills while developing new talent for a new Mentorship Program being established.
 
 The objectives of this project were to:
+
     1) Determine number of retirement-eligible employees by titles 
     2) Identify which retiring employees are qualified for a new mentorship program
 
