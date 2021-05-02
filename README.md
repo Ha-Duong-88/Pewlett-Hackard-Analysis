@@ -39,14 +39,30 @@ PostgreSQL and pgAdmin were used to write SQL statements and functions to create
 
 ## Results
 There were four new tables created as part of this analysis.
-    1. Retirement Titles - This table identied all employees who were born between 1952 and 1955 and eligible for retirement
+
+
+    1. Retirement Titles - This table identied all employees who were born between 1952 and 1955 and eligible for retirement. Below is a sample table.
 
 
 ![image](https://user-images.githubusercontent.com/80140082/116802294-8bc32280-aac6-11eb-82b5-952f3a1b9ead.png)
 
     3. Unique Titles - This table showed the most recent title for employees qualified for retirement
-    4. Retiring Titles - This table showed the titles for the employees of retirement age
-    5. Mentorship Eligibillity - This table showed the number of employees eligible for the Mentorship Program
+
+
+![image](https://user-images.githubusercontent.com/80140082/116802349-e78dab80-aac6-11eb-9078-e2f26d4f1940.png)
+
+
+
+    5. Retiring Titles - This table showed the titles for the employees of retirement age
+    
+
+![image](https://user-images.githubusercontent.com/80140082/116802328-cdec6400-aac6-11eb-875d-3df3f3fa67b0.png)
+
+    7. Mentorship Eligibillity - This table showed the number of employees eligible for the Mentorship Program
+
+
+![image](https://user-images.githubusercontent.com/80140082/116802356-f4aa9a80-aac6-11eb-8fca-87cc158fc727.png)
+
 
 
        
