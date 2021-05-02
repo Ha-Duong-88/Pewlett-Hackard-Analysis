@@ -10,6 +10,7 @@
 -- Semi colon signals the the statement is complete
 -- pgAdmin will run all of the code in the editor, unless told otherwise. Highlight only code to run.
 
+-- Creating tables for PH-EmployeeDB
 CREATE TABLE departments (
 	dept_no VARCHAR(4) NOT NULL,
 	dept_name VARCHAR(40) NOT NULL,
@@ -50,8 +51,7 @@ CREATE TABLE salaries (
 	PRIMARY KEY (emp_no)
 );
 
--- Dropped the PRIMARY KEY (emp_no) for dept_employees
--- Duplicate emp_no 10010
+-- Re-added the PRIMARY KEY (emp_no) for dept_employees
 CREATE TABLE dept_employees (
 	emp_no INT NOT NULL,
 	dept_no VARCHAR(4) NOT NULL, 
@@ -62,8 +62,7 @@ CREATE TABLE dept_employees (
 	PRIMARY KEY (emp_no, dept_no)
 );
 
--- Dropped the PRIMARY KEY (emp_no)for titles
--- Duplicate emp_no 10004
+-- Re-added the PRIMARY KEY (emp_no)for titles
 CREATE TABLE titles (
 	emp_no INT NOT NULL,
 	title VARCHAR NOT NULL,
@@ -87,8 +86,10 @@ SELECT * FROM salaries;
 
 SELECT * FROM titles
 --------------------------------
+
+
 -- Retirement Eligibility Search
---- We want SQL to look in the birth_date column for anyone born between January 1, 1952, and December 31, 1955.
+-- We want SQL to look in the birth_date column for anyone born between January 1, 1952, and December 31, 1955.
 SELECT first_name, last_name
 FROM employees
 WHERE birth_date BETWEEN '1952-01-01' AND '1955-12-31';
@@ -430,7 +431,7 @@ FROM retirement_info as ri, departments as d
 WHERE d.dept_name = 'Sales';
 
 
--- Create another query that will return the following information for the Sales and Development teams
+-- Query that will return the following information for the Sales and Development teams
 -- Information requested: employee numbers, employee first name, employee last name, employee name
 -- HINT: You'll need to use the IN condition with the WHERE clause. See the PostgreSQL documentation (Links to an external site.) for additional information.
 SELECT ri.emp_no,
