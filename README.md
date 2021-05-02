@@ -76,7 +76,9 @@ There were four new tables created as part of this analysis. The tables below di
 
 3) Senior Engineers titls account for 33% and Senior Staff titles account for 31% of the retirement-eligible employee population. Combined these titles represent 64% of the total 90,398 retirement-qualified employees. This could present a significant risk to the company. The recommendation is to create a pipeline for these titles in the Mentorship Program to future-proof the company against loss of this knowledge base.
 
-![image](https://user-images.githubusercontent.com/80140082/116819204-e474d880-ab23-11eb-86ab-7cbb55c04382.png)
+
+![image](https://user-images.githubusercontent.com/80140082/116820738-61578080-ab2b-11eb-94d5-84f59f40a358.png)
+
 
 3) 
 
