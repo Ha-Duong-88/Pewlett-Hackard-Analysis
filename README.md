@@ -70,15 +70,13 @@ There were four new tables created as part of this analysis. The tables below di
 
 # Summary
 
-## TO-DO:
-ADD this tomorrow
+1) There are 300024 employees at Pewlett Hackard.
 
-There are 300024 employees at Pewlett Hackard.
+2) There are 90,398 employees with unique titles that were born between 1952-01-01 and 1955-12-31 that are eligible for retirement packages. This amounts to 30% of total current employees that are nearing retirement. 
 
-How many employees retiring and their titles
-There are 90,398 employees with unique titles that were born between 1952-01-01 and 1955-12-31 that are eligible for retirement packages. This amounts to 30% of total current employees that are nearing retirement. 
+![image](https://user-images.githubusercontent.com/80140082/116819168-a4adf100-ab23-11eb-9c9d-699d830a18c2.png)
 
-How many employees eligible for Mentorship Program
+3) 
 
 
 Generate 2 additional tables or queries that may provide more insights tomorrow
