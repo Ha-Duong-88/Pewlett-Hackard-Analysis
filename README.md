@@ -34,8 +34,8 @@ To refine the query, multiple tables were also joined on the primary keys and on
      * Using the DISTINCT ON statement to retrieve the first occurence of employee number for each set of rows to remove duplicate data and nulls
      * Counting the number of titles filled by employees who are retiring
      * Sorting the data so that it's organized and readable
-     * Filtering the data from the employee birth date columns to extract employees who were born between 1952 and 1955 to determine retirement              eligibility.
-     * Filtering the data all current employee to get all the employees whose birth dates are between January 1, 1965 and December 31, 1965 to              determine eligibility for the Mentorship Program.
+     * Filtering the data from the employee birth date columns to extract employees who were born between 1952 and 1955 to determine retirement                    eligibility.
+     * Filtering the data all current employee to get all the employees whose birth dates are between January 1, 1965 and December 31, 1965 to                    determine eligibility for the Mentorship Program.
      
 The query results were saved to several new tables created from the SELECT statements on specific columns of the existing tables and joined with the employees, department employees, department manager and titles tables. The new tables were exported and saved as CSV files.
 
@@ -47,23 +47,20 @@ There were four new tables created as part of this analysis. The tables below di
 
     1. Retirement Titles - This table identied all employees who were born between 1952 and 1955 and eligible for retirement. Below is a sample table.
 
-
 ![image](https://user-images.githubusercontent.com/80140082/116802294-8bc32280-aac6-11eb-82b5-952f3a1b9ead.png)
 
-    3. Unique Titles - This table showed the most recent title for employees qualified for retirement
 
+    3. Unique Titles - This table showed the most recent title for employees qualified for retirement
 
 ![image](https://user-images.githubusercontent.com/80140082/116802349-e78dab80-aac6-11eb-9078-e2f26d4f1940.png)
 
 
-
     5. Retiring Titles - This table showed the titles for the employees of retirement age
     
-
 ![image](https://user-images.githubusercontent.com/80140082/116802328-cdec6400-aac6-11eb-875d-3df3f3fa67b0.png)
 
-    7. Mentorship Eligibility - This table showed the number of employees eligible for the Mentorship Program
 
+    7. Mentorship Eligibility - This table showed the number of employees eligible for the Mentorship Program
 
 ![image](https://user-images.githubusercontent.com/80140082/116802356-f4aa9a80-aac6-11eb-8fca-87cc158fc727.png)
 
@@ -74,8 +71,7 @@ There were four new tables created as part of this analysis. The tables below di
 
 2) There are 90,398 employees with unique titles that were born between 1952-01-01 and 1955-12-31 that are eligible for retirement packages. This amounts to 30% of total current employees population that are nearing retirement. 
 
-3) Senior Engineers titls account for 33% and Senior Staff titles account for 31% of the retirement-eligible employee population. Combined these titles represent 64% of the total 90,398 retirement-qualified employees. This could present a significant risk to the company. The recommendation is to create a pipeline for these titles in the Mentorship Program to future-proof the company against loss of this knowledge base.
-
+3) Senior Engineers titles account for 33% and Senior Staff titles account for 31% of the retirement-eligible employee population. Combined these titles represent 64% of the total 90,398 retirement-qualified employees. This could present a significant risk to the company to have a large number of attrition for these two titles. The recommendation is to create a pipeline for these titles in the Mentorship Program to future-proof the company against loss of this knowledge base and skillsets.
 
 ![image](https://user-images.githubusercontent.com/80140082/116820738-61578080-ab2b-11eb-94d5-84f59f40a358.png)
 
