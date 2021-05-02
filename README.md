@@ -5,7 +5,7 @@ Employee Database with SQL
 
 
 ## Project Purpose
-The Human Resources (HR) department at Pewlett Hackard is preparing for the retirement of a large segment of their workforce. They would like to know how many current employees and their associated departments are approaching retirement to assess the impacts and opportunities for the company to leverage the existing skills while developing new talent for a new Mentorship Program being established.
+The Human Resources (HR) department at Pewlett Hackard is preparing for the retirement of a large segment of their workforce. They would like to know how many current employees and their associated departments are approaching retirement, and of those employees, who are eligible for a retirement package. The outcome of the analysis to be able to assess the impacts and opportunities for the company to leverage the existing skills, as well as  developing new talent as part of a new Mentorship Program to future-proof the company.
 
 The objectives of this project were to:
 
@@ -15,9 +15,9 @@ The objectives of this project were to:
 The new Mentorship Program will help Pewlett Hackard to retain experienced and successful employees that want to step back into a part-time role instead of retiring completely. Their new role in the company would be as mentor for newly hired employees. 
 
 ## Project Scope
-This analysis evaluated large datasets from various CSV files containing information about departments, department managers, employees, employees associated to different departments, employee titles, and salaries. The Entity Relationship Diagrams(ERD)was initially created to map out the primary and foreing keys and assign data types.
+This analysis evaluated large datasets from various CSV files containing information about departments, department managers, employees, employees associated to different departments, employee titles, and salaries. The Entity Relationship Diagrams (ERD) was created to map out the primary and foreing keys and assign data types to create six initial tables from the CSV files.
 
-The analysis involved creating new database tables and constructing queries to retrieve the required information from the imported CSV files about:
+The analysis involved creating additional new database tables and constructing queries to retrieve the required information from the imported CSV files about:
 
     * The number of employees by their most recent job titles who are approaching retirement
     * The number of titles filled by employees who are retiring
@@ -30,11 +30,12 @@ The analysis involved creating new database tables and constructing queries to r
 
 To refine the query, multiple tables were also joined on the primary keys and on their columns. The data from the different joined tables was then filtered by different conditions, grouped and sorted in the database. This entailed:
 
-     * Filtering the data from the employee birth date columns to extract employees who were born between 1952 and 1955
-     * Filtering the number of employees by their most recent job title who are nearing retirement
-     * Using the DISTINCT ON statement to retrieve the first occurence of employee number for each set of rows
+     * Filtering the number of employees by their most recent job title who are nearing retirement to determine which departments are impacted
+     * Using the DISTINCT ON statement to retrieve the first occurence of employee number for each set of rows to remove duplicate data and nulls
      * Counting the number of titles filled by employees who are retiring
      * Sorting the data so that it's organized and readable
+     * Filtering the data from the employee birth date columns to extract employees who were born between 1952 and 1955 to determine retirement              eligibility.
+     * Filtering the data all current employee to get all the employees whose birth dates are between January 1, 1965 and December 31, 1965 to              determine eligibility for the Mentorship Program.
      
 The query results were saved to several new tables created from the SELECT statements on specific columns of the existing tables and joined with the employees, department employees, department manager and titles tables. The new tables were exported and saved as CSV files.
 
