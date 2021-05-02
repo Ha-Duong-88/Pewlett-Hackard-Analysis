@@ -25,7 +25,7 @@ This analysis evaluated data from various CSV files containing information about
     * Birth dates 
     * From and to dates for employee titles
 
-To refine the query, multiple tables were joined using inner and left joins on the primary keys. The query output was then stored in new tables from which further queries were performed.  
+To refine the query, multiple tables were joined using inner and left joins on the primary keys and conditions to retrieve information from specific columns. The query output was then stored in new tables from which further queries were performed.  
 
 The data from the various joined tables  and was furtther filtered by different conditions, such as:
         * Filtering the data from the employee birth date columns to extract employees who were born between 1952 and 1955
@@ -34,10 +34,6 @@ The data from the various joined tables  and was furtther filtered by different 
         * The number of titles filled by employees who are retiring
      
  The query results in new tables created from the select statements and table joins were exported to CSV files.
-
-employees, their titles, employment datesf rom these files to determine the number of retiring employes. In order to determine the count of employees eligible for retirement, the project involved creating database tables to store the data from the CSV files imported and joining various tables on primary keys and constraints to retrieve information from specific columns in those table.
-
-
 
 PostgreSQL and pgAdmin were used to write SQL statements and functions for the schema and queries generated during the analysis. In addition, the SQL files were also created in Visual Studio Code editor to store the .sql files.
 
