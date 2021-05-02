@@ -33,7 +33,7 @@ The data from the various joined tables was further filtered by different condit
      * Using the DISTINCT ON statement to retrieve the first occurence of employee number for each set of rows
      * Counting the number of titles filled by employees who are retiring
      
-The query results were outputed to several new tables created from the select statements on specific columns from the existing tables and joins with the employees, department employees, department manager and titles tables. The new tables were exported and saved as CSV files in PostgreSQL database.
+The query results were outputed to several new tables created from the select statements on specific columns of the existing tables and joins with the employees, department employees, department manager and titles tables. The new tables were exported and saved as CSV files in PostgreSQL database.
 
 PostgreSQL and pgAdmin were used to write SQL statements and functions to create the schema and generate the queries to perform the analysis. In addition, the SQL files were also created in Visual Studio Code editor and saved as .sql files.
 
