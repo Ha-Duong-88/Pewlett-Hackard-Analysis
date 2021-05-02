@@ -67,7 +67,7 @@ There were four new tables created as part of this analysis. The tables below di
 
 # Summary
 
-1) There are currently 300,024 employees at Pewlett Hackard. There are 90,398 employees with unique titles that were born between 1952-01-01 and 1955-12-31 that are eligible for retirement packages. This amounts to 30% of total current employees population that are nearing retirement. 
+1) There are currently 300,024 employees at Pewlett Hackard. There are 90,398 employees with unique titles that were born between 1952-01-01 and 1955-12-31 that are eligible for retirement packages. This amounts to 30% of total current employees population that are nearing retirement with roles that need to be filled.
 
 2) Based on the Retiring Titles table, Senior Engineers titles account for 33% and Senior Staff titles account for 31% of the retirement-eligible employee population. Combined these titles represent 64% of the total 90,398 retirement-qualified employees. This could present a significant risk to the company to have a large number of attrition for these two titles. The recommendation is to create a pipeline for these titles in the Mentorship Program to future-proof the company against loss of this knowledge base and skillsets.
 
@@ -79,7 +79,7 @@ There were four new tables created as part of this analysis. The tables below di
 ![image](https://user-images.githubusercontent.com/80140082/116822172-273dad00-ab32-11eb-9105-64d135e4f6eb.png)
 
 
-4) Based on the mentorship-eligibility analysis, there are 280 (1%) retiring Senior Engineers and 275 (1%) retiring Senior Staff eligible for the Mentorship Program. This further increases the risk of attrition for these key roles/itles. In addition to retaining these critical skills and developing them in the new employees as part of the Mentorship Program, Pewlett Hackard should create a hiring pipeline for these high priority roles as the retirement-mentorship-eligible employees will eventually retire.
+4) Based on the mentorship-eligibility analysis, there is not enough qualified, retirement-ready employees to mentor the next generation of Pewlett Packard employees. There are 1549 mentorship-eligibile employees. However, there are 90,398 retirement eligible employees. For example, there are 280 out of 19,414 or (1%) total retiring Senior Engineers and 275 out of 28,255 or 1% retiring Senior Staff eligible for the Mentorship Program. There are not enough mentors for these two roles. This also increases the risks. In addition to retaining these critical skills and developing them in the new employees as part of the Mentorship Program, Pewlett Hackard should ensure that they create a hiring pipeline for these high priority roles as the retirement-mentorship-eligible employees will eventually retire.
 
 
 
