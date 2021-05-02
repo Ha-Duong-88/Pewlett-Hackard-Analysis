@@ -76,7 +76,10 @@ There were four new tables created as part of this analysis. The tables below di
 ![image](https://user-images.githubusercontent.com/80140082/116820738-61578080-ab2b-11eb-94d5-84f59f40a358.png)
 
 
-4) 
+4) Based on the Unique Titles table, the departments with the highest number of employees eligible for retirement are Development, Production, and Sales. Priority should also be given these departments during recruitment and in the Mentorship Program.
+
+![image](https://user-images.githubusercontent.com/80140082/116822172-273dad00-ab32-11eb-9105-64d135e4f6eb.png)
+
 
 5) Based on the mentorship-eligibility analysis, there are 280 (1%) retiring Senior Engineers and 275 (1%) retiring Senior Staff eligible for the Mentorship Program. This further increases the risk of attrition for these key roles/itles. In addition to retaining these critical skills and developing them in the new employees as part of the Mentorship Program, Pewlett Hackard should create a hiring pipeline for these high priority roles as the retirement-mentorship-eligible employees will eventually retire.
 
