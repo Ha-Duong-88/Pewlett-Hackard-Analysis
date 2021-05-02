@@ -16,7 +16,7 @@ There were two deliverables for this analysis project:
 ## Project Scope
 This analysis evaluated data from various CSV files containing information about departments, department managers, employees, employees associated to different departments, employee titles, and salaries. An Entity Relationship Diagram (ERD) was initially created to create the conceptual, logical and physical database schema. The analysis involved creating database tables and queries to retrieve various information from the imported CSV files about:
     
-    * The number of employees by their most recent job titles who are approaching retiring
+    * The number of employees by their most recent job titles who are approaching retirement
     * The number of titles filled by employees who are retiring
     * The number of titles filled by employees who are retiring
     * Employee counts
